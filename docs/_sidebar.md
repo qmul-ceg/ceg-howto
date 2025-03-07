@@ -1,25 +1,25 @@
 <!-- docs/_sidebar.md -->
 - Scripts & Programs
   - Git
-    - [Clone](/Scripts&Programs/Git/Clone%20Repo.md)
-    - [Git Summaries](/Scripts&Programs/Git/Git%20Summaries.md)
-    - [Setup Repo](/Scripts&Programs/Git/Setup%20Repo.md)
-    - [Sync Repo](/Scripts&Programs/Git/Sync%20Repo.md)
-    - [Sync Selected Folders](/Scripts&Programs/Git/Sync%20with%20selected%20folders.md)
+    - [Clone](Scripts&Programs/Git/Clone%20Repo.md)
+    - [Git Summaries](Scripts&Programs/Git/Git%20Summaries.md)
+    - [Setup Repo](Scripts&Programs/Git/Setup%20Repo.md)
+    - [Sync Repo](Scripts&Programs/Git/Sync%20Repo.md)
+    - [Sync Selected Folders](Scripts&Programs/Git/Sync%20with%20selected%20folders.md)
   - Python
-    - [Pandas](/Scripts&Programs/Python/Pandas.md)
-    - [Run a Local Server](/Scripts&Programs/Python/Run%20Server.md)
+    - [Pandas](Scripts&Programs/Python/Pandas.md)
+    - [Run a Local Server](Scripts&Programs/Python/Run%20Server.md)
   - SQL
-    - [Connections](/Scripts&Programs/SQL/Connections.md)
-    - [Run Order](/Scripts&Programs/SQL/'SQL%20Run%20Order.md')
-    - [Edit Database Objects](/Scripts&Programs/'SQL/Edit%20database%20Objects.md')
+    - [Connections](Scripts&Programs/SQL/Connections.md)
+    - [Run Order](Scripts&Programs/SQL/SQL%20Run%20Order.md)
+    - [Edit Database Objects](Scripts&Programs/SQL/Edit%20database%20Objects.md)
 - Software
-  - [Notepad++](/Software/Notepad++.md)
-  - [KeepassXC](/Software/KeepassXC.md)
-  - [AutoHotKey](/Software/AutoHotkey.md)
-  - [WinGet](/Software/winget.md)
+  - [Notepad++](Software/Notepad++.md)
+  - [KeepassXC](Software/KeepassXC.md)
+  - [AutoHotKey](Software/AutoHotkey.md)
+  - [WinGet](Software/winget.md)
 - Windows
-  - [Shortcut Icons](/Windows/Windows_icon_dll_files.md)
+  - [Shortcut Icons](Windows/Windows_icon_dll_files.md)
 - Other Information
   - [This Website](Website.md)
 
