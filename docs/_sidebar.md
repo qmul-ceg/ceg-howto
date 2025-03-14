@@ -20,8 +20,8 @@
   - [AutoHotKey](Software/AutoHotkey.md)
   - [WinGet](Software/winget.md)
 - Windows
-  - [Windows 11](Windows%2011.md)
-  - [Shortcut Icons](Windows_icons.md)
+  - [Windows 11](Windows/Windows%2011.md)
+  - [Shortcut Icons](Windows/Windows_icons.md)
 - Other Information
   - [This Website](Website.md)
 
