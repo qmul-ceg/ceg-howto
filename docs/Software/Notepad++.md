@@ -2,7 +2,8 @@
 Notepad++ is, as the name suggests, an improved version of the standard Windows Notepad text editor.  It has tabs, for opening multiple files, syntax higlighting for many languages, and many other features.
 
 # Notepad++ Plugin Management
-**Note: Notepad++ plugins are not part of the standard QMUL software provision and the IT helpdesk will probably not be able to help with queries or issues.** 
+**Note: Notepad++ plugins are not part of the standard QMUL software provision and the IT helpdesk will probably not be able to help with queries or issues.**
+
 The functionality of Notepad++ can be extended by installing plugins.  However, because QM devices have restricted admin rights, you cannot managed plugins via the app’s Plugins menu, as you would with a standard install.  Instead, we need to edit a text file and run a specially written Notepad++ Plugin Management x64 utility (thank you James):
 
 1. Check your _C:\QMUL_ folder.  If it is in lowercase (C:\qmul\’), rename it to uppercase.

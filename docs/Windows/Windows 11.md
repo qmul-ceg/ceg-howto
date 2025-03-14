@@ -17,6 +17,7 @@
 		- Show empty drives = on
 - ### Clipboard
 	- Clipboard history = on (Win+V)
+
 ## Personalisation
 - Lock Screen - choose your option. 
 - Start
