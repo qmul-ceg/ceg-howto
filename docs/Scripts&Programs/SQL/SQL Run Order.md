@@ -1,5 +1,5 @@
 # SQL Run Order
-
+### Query
 **7** SELECT **8** DISTINCT **11** TOP 100
 	**7** column1,
 	**7** column2,
@@ -13,6 +13,7 @@
 **9** UNION
 **10** ORDER BY column ASC/DESC
 
+### List
 **1**   FROM / JOIN
 **2**   WHERE
 **3**   GROUP BY

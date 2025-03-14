@@ -14,8 +14,8 @@
     - [Run Order](Scripts&Programs/SQL/SQL%20Run%20Order.md)
     - [Edit Database Objects](Scripts&Programs/SQL/Edit%20database%20Objects.md)
 - Software
-  - [Notepad++](Notepad++.md)
-  - [Software Center](Software%20Center.md)
+  - [Notepad++](Software/Notepad++.md)
+  - [Software Center](Software/Software%20Center.md)
   - [KeepassXC](Software/KeepassXC.md)
   - [AutoHotKey](Software/AutoHotkey.md)
   - [WinGet](Software/winget.md)
