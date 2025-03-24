@@ -1,11 +1,9 @@
 <!-- docs/_sidebar.md -->
 - Scripts & Programs
   - Git
-    - [Clone](Scripts&Programs/Git/Clone%20Repo.md)
-    - [Git Summaries](Scripts&Programs/Git/Git%20Summaries.md)
-    - [Setup Repo](Scripts&Programs/Git/Setup%20Repo.md)
-    - [Sync Repo](Scripts&Programs/Git/Sync%20Repo.md)
-    - [Sync Selected Folders](Scripts&Programs/Git/Sync%20with%20selected%20folders.md)
+	- [Git Overview](Scripts&Programs/Git/Git%20Overview.md)
+    - [Git Commands](Scripts&Programs/Git/Git%20Commands.md)
+    - [Github Desktop](Scripts&Programs/Git/Github%20Desktop.md)
   - Python
     - [Pandas](Scripts&Programs/Python/Pandas.md)
     - [Run a Local Server](Scripts&Programs/Python/Run%20Server.md)
