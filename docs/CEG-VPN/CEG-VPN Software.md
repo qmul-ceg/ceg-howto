@@ -1,6 +1,7 @@
 # VPN Client
 You will need to install a VPN client onto your laptop, PC or Mac that can handle OpenVPN
 protocols. We recommend:
+
 **Windows**
 - OpenVPN GUI Community 64-bit: https://openvpn.net/community (lightweight  open-source app)
 **Windows / Mac / Linux**

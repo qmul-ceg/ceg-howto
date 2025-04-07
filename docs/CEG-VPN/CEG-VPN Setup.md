@@ -25,8 +25,10 @@ In your OTP app:
 - Follow the instructions specific to your OTP Authenticator app to add a new account or service using the QR code.
 - Skip any step that asks you to retype the displayed number.
 - If wanted, edit the account or service name to a better description, eg "CEG-VPN"
+
 ## Setup your VPN client
 You will need a VPN client installed on your laptop or PC.  More details: [[CEG-VPN Software#VPN Client]]
+
 ### OpenVPN GUI
 Ensure that your OpenVPN GUI client is using OpenVPN v2.6
 - Right-click on the OpenVPN GUI try icon and go to *Settings* and the *About* tab.
@@ -50,6 +52,7 @@ First-time connect to CEG-VPN
 	- Re-enter your password (from the auth.txt file) into *Password*
 		- Tick *Save Password*
 	- Click *OK*
+
 ### OpenVPN Connect (Windows / Mac)
 Add your ovpn file as a new profile
 - Click on the + and select *Upload File*
@@ -63,6 +66,7 @@ Add your ovpn file as a new profile
 	- Tick 'Save Private Key Password'
 		- Re-enter your password (from the auth.txt file) into 'Private Key Password'
 	- Click *Profiles*
+
 ### Tunnelblick (Mac)
 Add your ovpn file as a new profile
 - Drag and drop your ovpn file onto the Tunnelblick icon.
