@@ -8,7 +8,7 @@ Substitutions are indicated and described within { } curly brackets. eg `cd {dir
 	- `cd ..` go up 1 directory (Linux)
 	- `cd` OR `cd ~ OR cd ~/` go to home directory (Linux)
 	- `cd - ` go back to previous directory (Linux)
-- `mkdir {directory-name}` to create a new folder.
+- `mkdir {repo-name}` to create a new folder with repo name (best with lower case, no spaces and dashes(-) where needed.
 Add a `.gitignore` file containing a list of files and folders to exclude from Git (eg system folders and files containing passwords). eg Linux:
 ```
 touch .gitignore
@@ -16,7 +16,7 @@ echo '.env' > .gitignore
 ```
 ## Create a Local Repo
 - `git init -b main` to initialize, in the current folder, a new local git repo with a 'main' branch.
-- `git branch -m master main` to rename the 'master' branch to 'main'.
+- `git branch -m master main` to rename the 'master' branch to 'main' (see [[#Master / Main Issue]])
 - `git status` to check current status of repo
 - `git checkout -b {branch-name}` to create a new branch in the repo.
 - `git checkout {branch-name}` to go to an existing branch in your repo.
@@ -45,6 +45,17 @@ git pull origin main
 - `git commit -m "{summary}"` to commit the changes made with a summary description.
 - `git push -u origin {branch}` to push the changes into the {branch} branch of `origin` - the remote repository. And set this as the default upstream (tracking) for this branch
 	- `git push` to push changes using the default upstream
+
+## Master / Main Issue
+Git by default uses `master` as the name for the primary branch.  As of late 2020, GitHub has changed from 'master' to instead use `main`.  Both the local Git and Github need to be using the same branch name, preferably `main` in order to sync.
+The best way to accomplish this is to change your default Git primary branch name to `main`:
+`git config --global init.defaultBranch main`
+
+Alternatively, you can change the primary branch name **after** you make the first commit to the repo. This only for the specific repo and so must be repeated for each new repo.
+`git add --move master main`
+
+**Github Desktop** automatically edits the global Git config to `main`.
+
 ## Github CLI
 Not currently available on QM devices
 - `gh repo create` to create a new repo in your GitHub account.

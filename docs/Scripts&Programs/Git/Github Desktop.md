@@ -1,19 +1,23 @@
 # Github Desktop
 Desktop app that provides a simple UI for managing Git and Github sync.
 ## Clone from Github
-**Current Repository** -> dropdown  
-	Add -> dropdown 
-		Clone repository...
+- click *Current Repository* -> dropdown  
+	- click *Add* -> dropdown 
+		- click *Clone repository...*
 			select remote from list
 			set local folder for repo
-			click 'Clone'
+			click *Clone*
 ## Pull from Remote
-- *Fetch origin* to pull remote changes to local
+- click *Current Repository* -> dropdown  -> select repo
+- click *Fetch origin* to fetch the remote changes to local
+	- button changes to *Pull origin* with number of changes indicated
+- Click *Pull origin* to complete the sync
 ## Push to Remote
-- **Current Repository** -> dropdown  -> select repo
+- click *Current Repository* -> dropdown  -> select repo
 	repos with changes are indicated with a blue dot
-	- Files can be (un)selected to create separate commits, if needed 
-	- Add Summary description and (optional) more detailed description
-	- Click 'Commit to main'
-- Click 'Push to main'
+- file changes are listed
+	- files can be (un)selected to create separate commits, if needed 
+	- add 'Summary' description and (optional) more detailed description
+	- click *Commit to main*
+- click *Push origin* to sync changes to remote
 
