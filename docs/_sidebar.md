@@ -1,4 +1,10 @@
 <!-- docs/_sidebar.md -->
+- CEG-VPN
+	- [CEG-VPN Setup](CEG-VPN/CEG-VPN%20Setup.md)
+	- [CEG-VPN Connection](CEG-VPN/CEG-VPN%20Connection.md)
+	- [CEG-VPN Software](CEG-VPN/CEG-VPN%20Software.md)
+	- [CEG-VPN Overview](CEG-VPN/CEG-VPN%20Overview.md)
+	- [Troubleshooting](CEG-VPN/Troubleshooting.md)
 - Scripts & Programs
   - Git
 	- [Git Overview](Scripts&Programs/Git/Git%20Overview.md)
