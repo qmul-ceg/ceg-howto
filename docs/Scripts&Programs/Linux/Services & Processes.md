@@ -43,3 +43,17 @@ sudo kill -9 <process id>
 glances
 ^c
 ```
+
+
+- `&&` means execute the statement which follows _only if_ the preceding statement executed successfully (returned exit code zero).
+    
+- `||` means execute the statement which follows _only if_ the preceding statement failed (returned a non-zero exit code).
+    
+
+Some of the other control operators are:
+
+- `&` means execute the preceding statement in the background.
+    
+- `;` means execute the preceding statement and, after it completes, proceed to the next statement.
+    
+- `|` means execute the preceding statement and connect its stdout the to stdin of the statement which follows.
