@@ -74,9 +74,7 @@ git pull origin main
 Example:
 ```
 git pull
-
-## edit a file 
-
+~~~~~~~~~~ 
 git status
 git add .
 git commit -m "amended input parameter"
