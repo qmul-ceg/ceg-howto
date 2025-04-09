@@ -9,12 +9,13 @@ Substitutions are indicated and described within { } curly brackets. eg `cd {dir
 	- `cd` OR `cd ~ OR cd ~/` go to home directory (Linux)
 	- `cd - ` go back to previous directory (Linux)
 - `mkdir {repo-name}` to create a new folder with repo name (best with lower case, no spaces and dashes(-) where needed.
-Add a `.gitignore` file containing a list of files and folders to exclude from Git (eg system folders and files containing passwords). eg Linux:
-```
-touch .gitignore
-echo '.env' > .gitignore
-```
-## Create a Local Repo
+
+## Creating a Repo
+There are 2 Options
+1) You can create a local repo on your device and then upload it to Github
+2) You can copy ('clone') a repo from Github onto your device
+		a) You copy clone just selected folders from the repo
+### Create a Local Repo
 - `git init -b main` to initialize, in the current folder, a new local git repo with a 'main' branch.
 - `git branch -m master main` to rename the 'master' branch to 'main' (see [[#Master / Main Issue]])
 - `git status` to check current status of repo
@@ -22,22 +23,41 @@ echo '.env' > .gitignore
 - `git checkout {branch-name}` to go to an existing branch in your repo.
 - `git clone {url}` to clone a remote repo (create a synced local copy) in the current folder.
 - `git pull` to pull the latest changes from the remote repo into your local.
-## Clone a Repo
+### Clone a Repo from Github
 Navigate to, or make, the parent folder in which you want the repo folder.
 - `git clone {remote repo url}` 
 URL can be SSH or HTTPS format. SSH is preferable and the *only* option for cloning private repos. Both formats are available in Github online 
 	repo web page >> main page -  *<> Code* button
 SSH format: `git@github.com:qmul-ceg/eldb2023`
 HTTPS format: `https://github.com/LinkedInLearning/learning-python-2896241.git`
-## Clone Selected Folders from a Repo
+### Clone Selected Folders from a Github Repo
 Add repo to local git; use `sparse-checkout` to set particular folders; `pull` repo.
-```
-git remote add -f origin {remote repo SSH url}
-git sparse-checkout set {folder/subfolder}
-git pull origin main
+```bash
+# Initiate a local repo
+git init -b main
+
+# Add the remote repository
+git remote add origin git@github.com:qmul-ceg/eldb2025.git
+
+# Enable sparse checkout
+git config core.sparseCheckout true
+
+# Specify which folder(s) you want to checkout
+echo "{folder}/" >> .git/info/sparse-checkout
+
+# Fetch and checkout the files
+git pull origin main  
 ```
 - `git sparse-checkout add {folder2/subfolder2}` to add additional folders to the checkout
 - `git sparse-checkout list` to view folders in the checkout
+
+## Ignore files and folders
+Add a `.gitignore` file containing a list of files and folders to exclude from Git (eg system folders and files containing passwords). eg Linux:
+```
+touch .gitignore
+echo '.env' > .gitignore
+```
+
 ## Syncing (Pull + Push Commits)
 - `git pull` to pull the latest changes from the remote repo into your local.
 - `git add .` OR `git add -A` to add all files changed into tracked files to commit.

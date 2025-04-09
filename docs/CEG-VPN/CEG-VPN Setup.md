@@ -1,6 +1,7 @@
 # CEG-VPN Setup
 ## Download your zip file
 You should have received an email containing a URL link to download a zip file containing your CEG VPN login details.  This is sensitive information, so save it to your secured home location in your .ssh folder or a dedicated OpenVPN folder:
+
 **Windows**
 - `C:\Users\{USERNAME}\OpenVPN`
 - `C:\Users\{USERNAME}\.ssh`
@@ -15,7 +16,7 @@ The zip file contains the following files:
 - `auth.txt` -- your VPN username and password
 - `{USERNAME}.png` -- your OTP QR code
 - `{USERNAME}.ovpn` -- your VPN config file containing the necessary keys
-- `{USERNAME}` -- additional OTP information
+- `{USERNAME}` -- (no file extension) additional OTP information
 
 These files will enable you to setup a connection to the CEG-VPN using a VPN client (OpenVPN Client or Tunnelblick) + authentication using an OTP authorisation phone app (eg 2FAS, Microsoft Authenticator, Authy etc).  This is slightly different to the Duo Mobile 'PUSH' method, but will probably be familiar from other OTP authorisations.
 ## Setup your OTP authenticator
