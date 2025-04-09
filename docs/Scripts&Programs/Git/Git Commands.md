@@ -32,7 +32,7 @@ SSH format: `git@github.com:qmul-ceg/eldb2023`
 HTTPS format: `https://github.com/LinkedInLearning/learning-python-2896241.git`
 ### Clone Selected Folders from a Github Repo
 Add repo to local git; use `sparse-checkout` to set particular folders; `pull` repo.
-```bash
+```
 # Initiate a local repo
 git init -b main
 
