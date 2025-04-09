@@ -63,6 +63,7 @@ git pull origin main
 ## Syncing Local + Github Repo (Pull + Push Commits)
 ### Pull
 - `git pull` to pull the latest changes from the remote repo into your local.
+
 ### Commit + Push
 - `git status` to list changed files
 - `git add .` OR `git add -A` to add all files changed into tracked files to commit.
@@ -80,6 +81,7 @@ git add .
 git commit -m "amended input parameter"
 git push
 ```
+
 ## Ignore files and folders
 Add a `.gitignore` file containing a list of files and folders to exclude from Git (eg system folders and files containing passwords). eg Linux:
 ```
