@@ -33,19 +33,10 @@ HTTPS format: `https://github.com/LinkedInLearning/learning-python-2896241.git`
 ### Clone Selected Folders from a Github Repo
 Add repo to local git; use `sparse-checkout` to set particular folders; `pull` repo.
 ```
-# Initiate a local repo
 git init -b main
-
-# Add the remote repository
 git remote add origin git@github.com:qmul-ceg/eldb2025.git
-
-# Enable sparse checkout
 git config core.sparseCheckout true
-
-# Specify which folder(s) you want to checkout
 echo "{folder}/" >> .git/info/sparse-checkout
-
-# Fetch and checkout the files
 git pull origin main  
 ```
 - `git sparse-checkout add {folder2/subfolder2}` to add additional folders to the checkout
